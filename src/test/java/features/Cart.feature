@@ -4,7 +4,7 @@ Feature: Cart check test
   Scenario: I Empty the cart and ensure the cart has nothing in it.
     Given I login into myBidFood with valid credentials
     When I search with COCONUT MILK keyword
-    And  I added same item twice into my cart and verify the pop up message
+    And I click on add button to add item to the cart
     And I empty the bucket
     Then I Ensure the bucket is empty
 
