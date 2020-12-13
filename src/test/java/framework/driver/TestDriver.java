@@ -13,9 +13,6 @@ public class TestDriver {
         BrowserType browserType = BrowserType.CHROME; //This needs to be set from a property file
 
         switch (browserType){
-            case CHROME:
-                webDriver =  new Chrome().getChromeDriver();
-                break;
             case FIREFOX:
                 webDriver= new Firefox().getFirefoxDriver();
                 break;
